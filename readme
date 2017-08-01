@@ -1,0 +1,41 @@
+
+
+
+Methodology - 
+
+1. Setup 3 basic files for the application - 
+	a. index.html	(entry point of application which will be served over web browser)
+	b. main.js	(javascript file for making the REST API call and getting the data and setting the images for slideshow)
+	c. styles.css 	(stylesheet for setting styles on elements such as control buttons, setting opacity etc.)
+2. Setup the basic layout of the page in index.html - with standard header, content and footer content.
+	Since, the project is only about slideshow, the width of the slides is purposefully set to 100% to make it aesthetically pleasing.
+3. Setup the functionality in main.js
+	a. make the GET request to the end-point
+	b. save the data received and extract just the image-urls
+	c. set the image elements in the html file with those image-urls
+	d. setup a slideshow - track the current slide, setup next and previous buttons.
+4. Setup the styles in styles.css
+	a. add aesthetic effects on mouse hover, transition effect etc.
+	b. set the next and previous buttons on the ends of each side with color, mouse hover, etc.
+5. Push the code to GitHub
+6. Activate gh-pages for hosting
+
+
+
+Development process - 
+
+Planning - The requirement document was aptly written. The requirements were to consume API on front end. Planning with respect to tools was to be done.
+
+Analysis - With respect to tools - There was no need for use of any frameworks. Only, jQuery library would be used inorder to make ajax call and retrieve data and extract only image-urls.
+
+Design - The project strucutre would require 3 standard files for - layout, styling, dynamic manipulation of content. The UI requirement is standard next and previous button to change images. The layout requirement is only the slideshow component.  
+
+Development - Above methodology was followed for development of the application.
+
+Testing - The application was tested on multiple browsers - Google Chrome, Mozilla Firefox, Microsoft Edge, Internet Explorer 11, Vivaldi, Opera.
+
+Maintenance - There are no issues with respect to deployment. There is scope to include the metadata in the captions - if the metadata is received from API. 
+
+
+
+Amount of time for work - 1 hour.
